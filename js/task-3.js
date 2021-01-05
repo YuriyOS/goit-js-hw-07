@@ -17,7 +17,7 @@ const images = [
 ];
 
 let itemStr = '';
-createGalleryItem = img => {
+const createGalleryItem = img => {
     return `<li class="gallery-item"><img class="gallery-img" src="${img.url}" alt="${img.alt}"></li>`;
 }
 

@@ -1,11 +1,11 @@
 let counterValue = 0;
 
-increment = value => {
+const increment = value => {
     value += 1;
     return value;
 }
 
-decrement = value => {
+const decrement = value => {
     value -= 1;
     return value;
 }

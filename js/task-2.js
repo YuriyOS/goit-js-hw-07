@@ -7,7 +7,7 @@ const ingredients = [
     'Приправы',
 ];
 
-createIngredient = ingredient => {
+const createIngredient = ingredient => {
     const ingredientRef = document.createElement('li');
     ingredientRef.textContent = ingredient;
     return ingredientRef;
